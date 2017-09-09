@@ -2,8 +2,8 @@
 这是我最近写的代码，作为目前的demo使用，之后会把可以放上来的project代码放上来demo。
 """
 
-import sys
-sys.path.append('/Users/ttian/Dropbox/JobDocs/search/FTSearch/Interview_Prep/tech/archived_codes/Data_Structure')
+import sys, os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/Data_Structure')
 
 from LinkedList import *
 class Solution(object):

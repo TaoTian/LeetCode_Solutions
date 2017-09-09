@@ -17,7 +17,6 @@ class Solution(object):
             len_l += 1
             tmp = tmp.next
 
-
         dummy_head, dummy_head.next = ListNode(0), head
         prev_tail, prev_n, cur =dummy_head, dummy_head, head
         while len_l >= k:
